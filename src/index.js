@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './reset.css';
 import './index.css';
 import App from './App';
+import Footer from './components/footer/Footer';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+	<div>
+		<App />
+		<Footer />
+	</div>
+	,
+	document.getElementById('root'));
 registerServiceWorker();
