@@ -1,3 +1,8 @@
+html,
+body {
+	height: 100%
+}
+
 body {
   color: #555;
 	font-size: 15px;
@@ -6,6 +11,10 @@ body {
 	background: #f7fafc;
 	-webkit-font-smoothing: subpixel-antialiased;
 	padding-bottom: 60px;
+}
+
+.wrapper,#root{
+	height: 100%
 }
 
 .clearfix {
@@ -21,3 +30,4 @@ body {
 .clearfix:after {
 	clear: both
 }
+

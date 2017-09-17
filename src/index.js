@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-	<div>
+	<div className="wrapper">
 		<App />
 		<Footer />
 	</div>

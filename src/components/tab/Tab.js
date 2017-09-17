@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Nav from '../../components/nav/Nav';
-//import './Form.css';
+// import SignIn from "../../components/signIn/SignIn"
+import SignUp from "../../components/signUp/SignUp"
+import './Tab.css';
 
 class Tab extends Component {
 	render() {
@@ -9,8 +11,7 @@ class Tab extends Component {
 				<div className="index-tab-navs">
 					<Nav />
 				</div>
-				<div className="view view-signin">
-				</div>
+				<SignUp />
 				
 			</div>
 		);
