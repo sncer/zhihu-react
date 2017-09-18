@@ -3,9 +3,16 @@ import QRCode from '../../components/qrCode/QRCode';
 import './SignUp.css';
 
 class SignUp extends Component {
+	constructor(props){
+        super(props);
+        this.state = {
+            shownIndex: this.props.shownIndex
+        };
+    }
 	render() {
+		console.log(this.state.shownIndex);
 		return (
-			<div className="view  view-signup selected">
+			<div className="view view-signup" style={this.state.shownIndex == 0?{display:"block"}:{display:"none"}}>
 
 				<form className="zu-side-login-box" action="/register/email" id="sign-form-1" method="POST">
 				
