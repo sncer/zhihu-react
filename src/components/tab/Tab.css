@@ -18,9 +18,6 @@
   -webkit-transition: left .15s ease-in;
   transition: left .15s ease-in; }
 
-.index-tab-navs .navs-slider[data-active-index="1"] .navs-slider-bar {
-  left: 4em; }
-
 .index-tab-navs a {
   float: left;
   width: 4em;
