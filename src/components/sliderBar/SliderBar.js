@@ -8,6 +8,11 @@ class SliderBar extends Component {
             shownIndex: this.props.shownIndex
         };
     }
+    componentWillReceiveProps(nextProps){
+    	this.setState({
+            shownIndex: nextProps.shownIndex
+        });
+    }
 	render() {
 		return (
 			<span className="navs-slider-bar" style={this.state.shownIndex==0?{left:"0em"}:{left:"4em"}}></span>

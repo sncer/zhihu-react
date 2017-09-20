@@ -52,8 +52,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/static/revved/img/index/qr-code.d6565408.png); }
+  background-image: url(../../images/qr-code.png); }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .QRCode-image {
-    background-image: url(/static/revved/img/index/qr-code@2x.2607d448.png); } }
+    background-image: url(../../images/qr-code@2x.png); } }

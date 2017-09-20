@@ -8,13 +8,25 @@ class Tab extends Component {
 	constructor(props){
         super(props);
         this.state = {
-        	shownIndex: 1
+        	shownIndex: 0 		//0:注册，1:登录
         };
+        this.handleChangeTab = this.handleChangeTab.bind(this) 
     }
+    componentDidUpdate(){
+
+    }
+	handleChangeTab(index){
+		
+		this.setState({
+			shownIndex: index
+		});
+		
+	}
 	render() {
+		
 		return (
 			<div className="sign-flow clearfix">
-				<Nav shownIndex={this.state.shownIndex} />
+				<Nav handleChangeTab={this.handleChangeTab} shownIndex={this.state.shownIndex} />
 				<SignUp shownIndex={this.state.shownIndex} />
 				<SignIn shownIndex={this.state.shownIndex} />
 			</div>

@@ -184,7 +184,8 @@ html.no-touchevents .index-tab-navs a:hover {
   outline: 0; }
 
 .sign-flow .view .signin-misc-wrapper .unable-login {
-  float: right; }
+  float: right;
+  font-size: 14px; }
 
 .sign-flow .view .failure {
   display: none;
@@ -299,3 +300,96 @@ html.no-touchevents .index-tab-navs a:hover {
 
 .sign-flow .view-signup .QRCode {
   margin-top: 21px; }
+
+[class*=sprite-index-icon-] {
+  display: inline-block;
+  vertical-align: middle; }
+
+.sprite-index,
+[class*=sprite-index-] {
+  background-image: url(../../images/sprites.auto.fe745534.png);
+  background-repeat: no-repeat; }
+
+.sprite-index-icon-arrow {
+  background-position: 0 0;
+  width: 54px;
+  height: 42px; }
+
+.sprite-index-icon-delete {
+  background-position: -22px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-mark {
+  background-position: -40px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-qq {
+  background-position: -56px 0;
+  width: 20px;
+  height: 18px; }
+
+.sprite-index-icon-refresh {
+  background-position: -58px -44px;
+  width: 16px;
+  height: 16px; }
+
+.sprite-index-icon-wechat {
+  background-position: -56px -20px;
+  width: 20px;
+  height: 18px; }
+
+.sprite-index-icon-weibo {
+  background-position: 0 -44px;
+  width: 20px;
+  height: 18px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .sprite-index,
+  [class*=sprite-index-] {
+    background-image: url(../../images/sprites.auto.fe745534.png);
+    background-size: 76px 62px; } }
+
+.sign-flow .other-signup-wrapper .name {
+  vertical-align: middle;
+  color: #787878;
+  cursor: pointer;
+  font-size: 14px; }
+
+.sign-flow .other-signup-wrapper .name:hover {
+  color: #555; }
+
+.sign-flow .other-signup-wrapper .signup-social-buttons {
+  margin-right: 15px; }
+
+.sign-flow .other-signup-wrapper a {
+  margin: 0 14px 0 0;
+  opacity: .7;
+  -ms-filter: "alpha(Opacity=70)";
+  -webkit-transition: opacity .15s ease-out;
+  transition: opacity .15s ease-out; }
+
+.sign-flow .other-signup-wrapper a:hover {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)"; }
+
+.sign-flow .sns-buttons {
+  display: inline-block;
+  opacity: 0;
+  -ms-filter: "alpha(Opacity=0)";
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
+  transition: opacity .25s ease-out, -webkit-transform .25s ease-out;
+  transition: opacity .25s ease-out, transform .25s ease-out;
+  transition: opacity .25s ease-out, transform .25s ease-out, -webkit-transform .25s ease-out;
+  visibility: hidden; }
+
+.sign-flow .sns-buttons.is-visible {
+  opacity: 1;
+  -ms-filter: "alpha(Opacity=100)";
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none; }
